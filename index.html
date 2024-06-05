@@ -12,7 +12,15 @@
   <body>
     <h1>QR Code Generator</h1>
 
-    <div class="container"></div>
+    <div class="container">
+      <p>Enter your text or url</p>
+      <input type="text" placeholder="Text or URL" id="qrText" />
+
+      <div id="imgBox">
+        <img src="" alt="" id="qrImage" />
+      </div>
+      <button onclick="generateQR()">Generate QR Code</button>
+    </div>
 
     <script src="app.js" async defer></script>
   </body>
